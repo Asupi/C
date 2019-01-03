@@ -1,0 +1,33 @@
+﻿生成启动时间为 2019/1/3 16:51:12。
+     1>项目“D:\vs\c++程序编码\2019_1_3\2019_1_3\2019_1_3.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt list.c test.c
+         test.c
+     1>d:\vs\c++程序编码\2019_1_3\2019_1_3\list.h(18): error C2081: “plist”: 形参表中的名称非法
+     1>d:\vs\c++程序编码\2019_1_3\2019_1_3\list.h(18): error C2085: “GetListLength”: 不在形参表中
+     1>d:\vs\c++程序编码\2019_1_3\2019_1_3\test.c(5): error C2085: “test”: 不在形参表中
+     1>d:\vs\c++程序编码\2019_1_3\2019_1_3\test.c(5): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\vs\c++程序编码\2019_1_3\2019_1_3\test.c(12): warning C4013: “PrintList”未定义；假设外部返回 int
+     1>d:\vs\c++程序编码\2019_1_3\2019_1_3\test.c(13): warning C4013: “GetListLength”未定义；假设外部返回 int
+     1>d:\vs\c++程序编码\2019_1_3\2019_1_3\test.c(19): warning C4013: “test”未定义；假设外部返回 int
+         list.c
+     1>d:\vs\c++程序编码\2019_1_3\2019_1_3\list.h(18): error C2081: “plist”: 形参表中的名称非法
+     1>d:\vs\c++程序编码\2019_1_3\2019_1_3\list.h(18): error C2085: “GetListLength”: 不在形参表中
+     1>d:\vs\c++程序编码\2019_1_3\2019_1_3\list.c(5): error C2082: 形参“InitList”的重定义
+     1>d:\vs\c++程序编码\2019_1_3\2019_1_3\list.c(5): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\vs\c++程序编码\2019_1_3\2019_1_3\list.c(18): warning C4013: “free”未定义；假设外部返回 int
+     1>d:\vs\c++程序编码\2019_1_3\2019_1_3\list.c(25): warning C4013: “malloc”未定义；假设外部返回 int
+     1>d:\vs\c++程序编码\2019_1_3\2019_1_3\list.c(31): error C2084: 函数“void PushBack(pList *,DataType)”已有主体
+                 d:\vs\c++程序编码\2019_1_3\2019_1_3\list.h(17) : 参见“PushBack”的前一个定义
+     1>d:\vs\c++程序编码\2019_1_3\2019_1_3\list.c(36): warning C4047: “=”:“pList *”与“bool”的间接级别不同
+     1>d:\vs\c++程序编码\2019_1_3\2019_1_3\list.c(54): error C2039: “data”: 不是“Node”的成员
+                 d:\vs\c++程序编码\2019_1_3\2019_1_3\list.h(8) : 参见“Node”的声明
+     1>d:\vs\c++程序编码\2019_1_3\2019_1_3\list.c(59): error C2081: “plist”: 形参表中的名称非法
+     1>d:\vs\c++程序编码\2019_1_3\2019_1_3\list.c(60): error C2055: 应输入形参表，而不是类型表
+     1>d:\vs\c++程序编码\2019_1_3\2019_1_3\list.c(61): warning C4047: “初始化”:“pNode”与“int”的间接级别不同
+         正在生成代码...
+     1>已完成生成项目“D:\vs\c++程序编码\2019_1_3\2019_1_3\2019_1_3.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.50
